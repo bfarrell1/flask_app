@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Montreal Canadiens</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="../static/main.css">
+  <style>
+	
+	body { background: #AF1E2D }
+	
+  </style>
+
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja directives: page contents will go between them -->
+  
+
+
+<h1>Montreal Canadiens</h1>
+
+
+
+<p>The Montreal Canadiens began playing in the National Hockey League in 1917 and currently play at Bell Centre.
+
+	
+		They have won the Stanley Cup 24 times.
+	
+
+  
+    The Montreal Canadiens have appeared in the Stanley Cup Finals 34 times.
+  
+
+  
+    They have won 37 division titles.
+  
+
+
+	
+</p>
+<br>
+
+
+<!-- NOTE the way to link to a route: Use the function name -->
+<p><a href="../index.html">Return to the list</a> to view a different team.</p>
+
+
+
+</div>
+
+</body>
+</html>

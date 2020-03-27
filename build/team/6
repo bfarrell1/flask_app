@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Carolina Hurricanes</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="../static/main.css">
+  <style>
+	
+	body { background: #cc0000 }
+	
+  </style>
+
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja directives: page contents will go between them -->
+  
+
+
+<h1>Carolina Hurricanes</h1>
+
+
+
+<p>The Carolina Hurricanes began playing in the National Hockey League in 1979 and currently play at PNC Arena.
+
+	
+		They have won the Stanley Cup once.
+	
+
+  
+    The Carolina Hurricanes have appeared in the Stanley Cup Finals 2 times.
+  
+
+  
+    They have won 4 division titles.
+  
+
+
+	
+		The team was previously the Hartford Whalers but moved in 1997.
+	
+</p>
+<br>
+
+
+<!-- NOTE the way to link to a route: Use the function name -->
+<p><a href="../index.html">Return to the list</a> to view a different team.</p>
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Index of National Hockey League Teams</h1>
+
+<p>Click on any team to read more about it.</p>
+
+
+    <ul>
+    {% for pair in pairs %}
+        <li><a href="{{ url_for( 'detail', num=pair[0] ) }}">{{ pair[1] }}</a></li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

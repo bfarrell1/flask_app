@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>New York Rangers</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="../static/main.css">
+  <style>
+	
+	body { background: #0038A8 }
+	
+  </style>
+
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja directives: page contents will go between them -->
+  
+
+
+<h1>New York Rangers</h1>
+
+
+
+<p>The New York Rangers began playing in the National Hockey League in 1926 and currently play at Madison Square Garden.
+
+	
+		They have won the Stanley Cup 4 times.
+	
+
+  
+    The New York Rangers have appeared in the Stanley Cup Finals 11 times.
+  
+
+  
+    They have won 8 division titles.
+  
+
+
+	
+</p>
+<br>
+
+
+<!-- NOTE the way to link to a route: Use the function name -->
+<p><a href="../index.html">Return to the list</a> to view a different team.</p>
+
+
+
+</div>
+
+</body>
+</html>

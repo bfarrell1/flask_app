@@ -1,0 +1,32 @@
+team-number,team-name,founded,stanley-cups,finals-appearances,division-titles,home-arena,original-team,move-year,hex-code
+1,Anaheim Ducks,1993,1,2,6,Honda Center,None,None,#F47A38
+2,Arizona Coyotes,1979,0,0,1,Gila River Arena,Winnipeg Jets,1996,#8C2633
+3,Boston Bruins,1924,6,20,29,TD Garden,None,None,#FFB81C
+4,Buffalo Sabres,1970,0,2,6,KeyBank Center,None,None,#002654
+5,Calgary Flames,1972,1,3,7,Scotiabank Saddledome,Atlanta Flames,1980,#c8102E
+6,Carolina Hurricanes,1979,1,2,4,PNC Arena,Hartford Whalers,1997,#cc0000
+7,Chicago Blackhawks,1926,6,13,17,United Center,None,None,#CF0A2C
+8,Colorado Avalanche,1979,2,2,11,Pepsi Center,Quebec Nordiques,1995,#6F263D
+9,Columbus Blue Jackets,2000,0,0,0,Nationwide Arena,None,None,#002654
+10,Dallas Stars,1967,1,4,10,American Airlines Center,Minnesota North Stars,1993,#006847
+11,Detroit Red Wings,1926,11,24,29,Little Caesars Arena,None,None,#ce1126
+12,Edmonton Oilers,1979,5,7,6,Rogers Arena,None,None,#FF4C00
+13,Florida Panthers,1993,0,1,2,BB&T Center,None,None,#c8102E
+14,Los Angeles Kings,1967,2,3,1,Stapes Center,None,None,#A2AAAD
+15,Minnesota Wild,2000,0,0,1,Xcel Energy Center,None,None,#154734
+16,Montreal Canadiens,1917,24,34,37,Bell Centre,None,None,#AF1E2D
+17,Nashville Predators,1998,0,1,2,Bridgestone Arena,None,None,#FFB81C
+18,New Jersey Devils,1974,3,5,9,Prudential Center,Colorado Rockies,1982,#CE1126
+19,New York Islanders,1972,4,5,6,Barclays Center and Nassau Coliseum,None,None,#00539b
+20,New York Rangers,1926,4,11,8,Madison Square Garden,None,None,#0038A8
+21,Ottawa Senators,1992,0,1,4,Canadian Tire Center,None,None,#c52032
+22,Philadelphia Flyers,1967,2,8,16,Wells Fargo Center,None,None,#F74902
+23,Pittsburgh Penguins,1967,5,6,9,PPG Paints Arena,None,None,#FCB514
+24,San Jose Sharks,1991,0,1,6,SAP Center,None,None,#006D75
+25,St. Louis Blues,1967,1,4,10,Enterprise Center,None,None,#002F87
+26,Tampa Bay Lightning,1992,1,2,4,Amalie Arena,None,None,#002868
+27,Toronto Maple Leafs,1917,13,21,8,Scotiabank Arena,None,None,#00205b
+28,Vancouver Canucks,1970,0,3,10,Rogers Place,None,None,#00843d
+29,Vegas Golden Knights,2017,0,1,2,T-Mobile Arena,None,None,#B4975A
+30,Washington Capitals,1974,1,2,13,Capital One Arena,None,None,#C8102E
+31,Winnipeg Jets,1999,0,0,1,Bell MTS Place,Atlanta Thrashers,2011,#004C97

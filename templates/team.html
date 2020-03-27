@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>{{ team['team-name'] }}</h1>
+
+
+
+<p>The {{ team['team-name'] }} began playing in the National Hockey League in {{ team['founded'] }} and currently play at {{ team['home-arena'] }}.
+
+	{% if team['stanley-cups'] == '1'%}
+		They have won the Stanley Cup once.
+	{% elif team['stanley-cups'] != '1'%}
+		They have won the Stanley Cup {{ team['stanley-cups'] }} times.
+	{% endif %}
+
+  {% if team['finals-appearances'] == '1'%}
+    The {{ team['team-name'] }} have appeared in the Stanley Cup Finals once.
+  {% elif team['finals-appearances'] != '1'%}
+    The {{ team['team-name'] }} have appeared in the Stanley Cup Finals {{ team['finals-appearances'] }} times.
+  {% endif %}
+
+  {% if team['division-titles'] == '1'%}
+    They won their division once.
+  {% elif team['division-titles'] != '1'%}
+    They have won {{ team['division-titles'] }} division titles.
+  {% endif %}
+
+
+	{% if team['original-team'] != 'None' %}
+		The team was previously the {{ team['original-team'] }} but moved in {{ team['move-year'] }}.
+	{% endif %}
+</p>
+<br>
+
+
+<!-- NOTE the way to link to a route: Use the function name -->
+<p><a href="{{ url_for('index') }}">Return to the list</a> to view a different team.</p>
+
+{% endblock %}
